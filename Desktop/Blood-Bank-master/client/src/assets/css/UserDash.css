@@ -1,0 +1,49 @@
+.user-dash{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    padding-top: 15em;
+}
+.full{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pos{
+    position: absolute;
+    left: 20px;
+    top: 80px;
+
+}
+.pos1{
+    position: fixed;
+    left: 510px;
+    bottom: 170px;
+}
+/* body{
+    background-image: url("http://healthstaff.co.za/wp-content/uploads/2017/06/blog-4.png");
+    background-position: center;
+    background-size: 1500px;
+} */
+.user-dash button{
+    margin: 1em;
+    height: 90px;
+    width: 240px;
+    align-self: center;
+    font-family:monospace;
+    font-size: 20px;
+    /* border-radius: 90px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    -ms-border-radius: 90px;
+    -o-border-radius: 90px; */
+    outline: none;
+    
+}
+.user-dash button:hover{
+    background-color: black;
+    color:white;
+    outline: none;
+}
